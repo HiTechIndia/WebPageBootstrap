@@ -1,7 +1,15 @@
 body {
   padding-top: 50px;
 }
-.starter-template {
+.div-centered {
   padding: 40px 15px;
   text-align: center;
+}
+
+div.container{
+}
+
+div.main-body{
+	background-color: grey;
+
 }
