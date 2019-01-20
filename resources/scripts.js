@@ -1,0 +1,23 @@
+$(function(){
+    $("div#product-list").on("click", "div.product-container", 
+        function(){
+            title = $(this).find("span.product-description-title").html();
+            desciption = $(this).find("span.product-description-detail").html();
+            imgContent = $(this).find("img").clone();
+
+            $(imgContent).removeClass("img-thumbnail");
+            $(imgContent).addClass("img-responsive");
+
+            $("div#img-popup").find("h4.modal-title").html(title);
+
+            $("div#img-popup").find("div.modal-body").empty();
+            $("div#img-popup").find("div.modal-body").append(imgContent.clone());
+
+
+            $("div#img-popup").modal("show");
+
+            console.log(title);
+            console.log(imgContent);
+    })
+
+})

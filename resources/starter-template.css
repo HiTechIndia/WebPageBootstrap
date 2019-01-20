@@ -34,7 +34,7 @@ div.slide-img > div > img {
 }
 
 div.product-container {
-  display: grid;
+  display: inline-block;
   padding: 10px;
   margin: 10px;
   border: 1px solid grey;
@@ -59,4 +59,17 @@ div.product-description {
   display: block;
   padding-top: 10px;
   background-color: lightgrey;
+}
+
+.modal-dialog {
+  width: 80%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
 }
