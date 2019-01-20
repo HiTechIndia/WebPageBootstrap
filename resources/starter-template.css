@@ -62,14 +62,18 @@ div.product-description {
 }
 
 .modal-dialog {
-  width: 80%;
+  width: 90%;
   height: auto;
-  margin: 0;
+  margin: 5%;
   padding: 0;
 }
 
 .modal-content {
   height: auto;
-  min-height: 100%;
+  min-height: 80%;
   border-radius: 0;
+}
+
+div.carousel div.item {
+  cursor: pointer;
 }
