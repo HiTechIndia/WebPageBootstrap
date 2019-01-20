@@ -10,6 +10,52 @@ div.container{
 }
 
 div.main-body{
-	background-color: grey;
+	/* background-color: rgb(204, 199, 199); */
 
+}
+
+span.product-description-title{
+	display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+div.carousel.slide a {
+  background-image: none;
+}
+
+div.carousel.slide span.glyphicon-chevron-right, div.carousel.slide span.glyphicon-chevron-left{
+  color: black;
+}
+
+div.slide-img > div > img {
+  max-height: 600px;
+  min-height: 400px;
+}
+
+div.product-container {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid grey;
+  min-width: 320px;
+  width: 30%;
+  background-color:rgb(240, 238, 238);
+  cursor: pointer;
+}
+
+div.product-container > div > img {
+  height: 200px;
+  width: 300px;
+  min-width: 300px;
+}
+
+div.product-image {
+  display:block;
+  border-bottom: 1px solid grey;
+}
+
+div.product-description {
+  display: block;
+  padding-top: 10px;
+  background-color: lightgrey;
 }
