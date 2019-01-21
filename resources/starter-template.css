@@ -77,3 +77,7 @@ div.product-description {
 div.carousel div.item {
   cursor: pointer;
 }
+
+div.footer {
+  background-color: grey;
+}
