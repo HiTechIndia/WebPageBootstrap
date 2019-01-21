@@ -81,3 +81,11 @@ div.carousel div.item {
 div.footer {
   background-color: grey;
 }
+
+div.contact {
+  min-width: 250px;
+}
+
+div.contact > label {
+  width: 80px;
+}
