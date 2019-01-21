@@ -79,7 +79,8 @@ div.carousel div.item {
 }
 
 div.footer {
-  background-color: grey;
+  background-color: black;
+  color: white;
 }
 
 div.contact {
