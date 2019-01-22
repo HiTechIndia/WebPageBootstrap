@@ -90,3 +90,7 @@ div.contact {
 div.contact > label {
   width: 80px;
 }
+
+#about {
+  cursor: pointer;
+}

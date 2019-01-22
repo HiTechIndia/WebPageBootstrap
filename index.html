@@ -46,9 +46,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="https://getbootstrap.com/docs/3.3/examples/starter-template/#">Home</a></li>
-            <!-- <li><a href="https://getbootstrap.com/docs/3.3/examples/starter-template/#about">About</a></li> -->
-            <li><a href="https://getbootstrap.com/docs/3.3/examples/starter-template/#contact">Contact</a></li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a id='about' data-toggle="modal" data-target="#about-popup">About</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -56,7 +56,7 @@
 
     <div class="container main-body">
 
-      <div class="div-centered">
+      <div class="div-centered" id="home">
         <h1>Who Are We?</h1>
         <p class="lead">We are a leading Organisation in India dealing with the
             Sales &amp; Service of the complete range of Physical Testing Machines. 
@@ -198,7 +198,7 @@
 
     </div><!-- /.container -->
 
-    <div class="footer row">
+    <div class="footer row" id="footer">
         <div class="col-sm-1"></div>
         <div class="address col-sm-4" >
           <h3> Address: </h3>
@@ -236,6 +236,86 @@
         </div>
       </div>
       
+      <div id="about-popup" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">About Us</h4>
+              </div>
+              <div class="modal-body">
+                  <div class="address" >
+                      <h3> Address: </h3>
+                      The Desk of C.K. Saha, Hi – Tech (India)<br>
+                      2 , Ganesh Chandra Avenue, <br>
+                      Kolkata – 700013, <br>
+                      West Bengal (India)
+                   </div>
+
+                    <div class="contact">
+                      <h3>Contact</h3>
+                      <label>Phone:</label><span class="contact">033 2213 – 2302</span> <br>
+                      <label>Telefax No:</label><span class="contact">033 2213 – 2302</span> <br>
+                      <label>Cell:</label><span class="contact">033 2213 – 2302</span> <br>
+                      <label></label><span class="contact">033 2213 – 2302</span>
+                    </div>
+
+                <pre>
+                    From:
+                    The Desk of C.K. Saha, Hi – Tech (India)
+                    2 , Ganesh Chandra Avenue, Kolkata – 700013 , West Bengal (India)
+
+
+
+                    We take this opportunity to introduce ourselves as a leading Organisation in India dealing in the
+                    Sales &amp; Service of the complete range of Physical Testing Machines Manufactured by Krystal Group.
+                    Our product range includes, Analogue Type, Microprocessor Based, Analogue – cum- PC Based Universal Testing
+                    Machines besides other Physical Testing Machines.
+                    On the onset, let me inform you that we represent M/s. Krystal Group, Ichalkaranji (Near Kolhapur)
+                    Maharashtra for their complete range of Physical Testing Machines. Due to the geographical accessability
+                    in India, our Principal’s have entrusted us the total Eastern India and places like Nepal, Bhutan,
+                    Sikkim , Bangladesh and other neighbouring countries for the Sales and Service of their Product .
+                    Our main line of concentration is on Rolling Mills ie. TMT Bars, Flats, Angles, Channels etc. We have supplied
+                    more than 100 machines to various Rolling Mills in Eastern India and abroad.
+                    We were the first to introduce the 180° Direct Bend Test Attachment upto 40 mm dia. The Bending /
+                    Rebending Panes required as per IS : 1786 – 2012 is also a marvel developed by us. Depending upon the size of
+                    TMT Bars we supply the Bend / Rebend Panes along with the templates for 135° &amp; 157 ½° and the tests are
+                    carried out as per IS : 1599 – 1985.
+                    It will also be proper to mention that we have for the first time introduced the Water Heating
+                    System for TMT Bars. This is totally an indigenous design where the water is boiled upto 101°C
+                    in a Stainless Steel container.
+                    The TMT samples are placed in the Stainless Steel wire mesh and boiled for 30 minutes a Timer Circuit and
+                    Pyrometer is provided in the control panel of the system. The samples are cooled in normal ambient temperature and
+                    tested for Rebend.
+
+                    Furthermore IS : 1786 – 2012 specifies 0.2% Proof Stress / Yield Stress for all Grades of TMT / Tor /
+                    CTD Bars / Flats &amp; Angles.
+                    With the Electronic Extensometer the results are directly displayed online , on the PC and 0.1% or
+                    0.2% Proof Stress can be evaluated and plotted on a Printer.
+                    We were the first to introduce the Direct Total Elongation Extensometer for Fe 500D Grade ie.Agt
+                    where the total elongation is 20 mm or Strain 20% the elongation at Fmax is automatically recorded.
+                    With the synopsis given above we hope, we could enlighten you on our products and should you require any further
+                    details regarding our Machines we shall be pleased to be of assistance to you.
+                    We are enclosing in this file the Photographs / Catalogues of machines and accessories required for TMT Bars, Flats,
+                    Channels etc. kindly go through the details and let us know your requirement to enable us send you our
+                    Comprehensive Offer.
+                    .
+                    We are also enclosing a partial list of customers in Eastern India using our Universal Testing Machines for
+                    testing TMT Bars.
+                    Thanking you and assuring you of our prompt attention at all times;
+
+                </pre>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        
+          </div>
+        </div>
 
 
     <!-- Bootstrap core JavaScript

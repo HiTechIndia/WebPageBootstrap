@@ -22,11 +22,11 @@ $(function(){
 
 })
 
-function imgPopup(title, imgContent){
+function imgPopup(title, content){
     $("div#img-popup").find("h4.modal-title").html(title);
 
     $("div#img-popup").find("div.modal-body").empty();
-    $("div#img-popup").find("div.modal-body").append(imgContent.clone());
+    $("div#img-popup").find("div.modal-body").append(content.clone());
 
     $("div#img-popup").modal("show");
 }
