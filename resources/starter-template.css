@@ -94,3 +94,12 @@ div.contact > label {
 #about {
   cursor: pointer;
 }
+
+.product-group {
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+div#product-list {
+  text-align: center;
+}
