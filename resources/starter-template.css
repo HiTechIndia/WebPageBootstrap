@@ -107,3 +107,15 @@ div#product-list {
 div.left-margin {
   margin-left: 10px;
 }
+
+.hidden {
+  display: none;
+}
+
+div.customer-list th {
+  font-size: 20px
+}
+
+div.cpdt-title h3 {
+  text-decoration: underline;
+}

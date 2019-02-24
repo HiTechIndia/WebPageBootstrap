@@ -48,7 +48,9 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#home">Home</a></li>
             <li><a id='about' data-toggle="modal" data-target="#about-popup">About</a></li>
+            <li><a href="#dispCustomerList" onclick="dispCustomers()">Customers</a></li>
             <li><a href="#footer">Contact</a></li>
+            
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -131,11 +133,24 @@
 
       <hr/>
 
-      <div class="div-centered">
-        <h1>Our Products</h1>
+      <div id="dispProductList">
+        <div class="div-centered" id="SectionTitle">
+          <h1>Our Products</h1>
+        </div>
+
+        <div id="product-list">
+
+        </div>
       </div>
 
-      <div id="product-list">
+      <div id="dispCustomerList" class="hidden">
+        <div class="div-centered" id="SectionTitle">
+            <h1>Some of Our Customers</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12" id="customerData"></div>
+        </div>
       </div>
 
     </div><!-- /.container -->
@@ -156,8 +171,27 @@
         <div class="panel panel-default product-group">
           <div class="panel-heading"></div>
         </div>
-        
     </div>
+
+    <div style="display: none" id="refCustomerList">
+        <div class="customers-pdt" >
+            <div class="cpdt-title"> <h3><!--script provides the section title here--></h3></div>
+            <div class="customer-list">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                       <!--script will add TH elemenst here-->
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!--script will TR.TD elements here-->
+                    </tbody>
+                  </table>
+            </div>
+    
+          </div>
+    </div>
+    
 
     <div class="footer row" id="footer">
         <div class="address left-margin col-sm-2" >
@@ -306,6 +340,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./resources/ie10-viewport-bug-workaround.js.download"></script>
     <!-- Add custom scripts-->
+    <script src="./resources/productsdata.js"></script>
+    <script src="./resources/customerData.js"></script>
     <script src="./resources/scripts.js"></script>
   
 
