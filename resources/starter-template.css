@@ -103,3 +103,7 @@ div.contact > label {
 div#product-list {
   text-align: center;
 }
+
+div.left-margin {
+  margin-left: 10px;
+}

@@ -22,7 +22,7 @@ var products = [
             {src:"Bend & Rebend Test Panes & Mandrels.jpg", imageTitle:"Bend & Rebend Test Panes & Mandrels"},
             {src:"V Table 600 mm long.jpg", imageTitle:"V Table 600 mm long"},
             {src:"Water Heating arrangment for TMT rebend test.jpg", imageTitle:"Water Heating arrangment for TMT rebend test"},
-            {src:"Roller Stand for Manhole Cover Testing Machine.jpg", imageTitle:"Roller Stand for Manhole Cover Testing Machine.jpg"}
+            {src:"Roller Stand for Manhole Cover Testing Machine.jpg", imageTitle:"Roller Stand for Manhole Cover Testing Machine"}
         ]
     },
 
